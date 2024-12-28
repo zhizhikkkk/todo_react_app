@@ -1,13 +1,13 @@
 React. Final
 
-Student ID: _fill in_
-Student Fullname: _fill in_
+Student ID: 21B030963
+Student Fullname: Zhanel Mamyt
 
 You have 4 tasks to accomplish. After completing them publish your code to GitHub to your repository.
 
 After publishing to GitHub, answer live-coding question with repository URL.
 
-1. Try to add several tasks without closing modal window. Tasks will only appear once the windows is closed, fix this. = 2.5 points
+1. Try to add several tasks without closing modal window. Tasks will only appear once the windows is closed, fix this. = 2.5 points 
 
 2. Now, try to delete some tasks. Delete doesn't work properly. Fix it so that clicking the button will immediately delete task. = 2.5 points
 

@@ -33,21 +33,23 @@ export default function App() {
   const taskSummary = useRef("");
 
   function createTask() {
-    tasks.push({
+    const newTask = {
       title: taskTitle.current.value,
       summary: taskSummary.current.value,
-    });
-    setTasks(tasks);
-    saveTasks(tasks);
+    };
+    const updatedTasks = [...tasks, newTask];
+    setTasks(updatedTasks);
+    saveTasks(updatedTasks);
+
+    taskTitle.current.value = "";
+    taskSummary.current.value = "";
   }
 
   function deleteTask(index) {
-    var clonedTasks = tasks;
 
-    clonedTasks.splice(index, 1);
-
-    setTasks(clonedTasks);
-    saveTasks(clonedTasks);
+    const updatedTasks = tasks.filter((_, i) => i !== index);
+    setTasks(updatedTasks);
+    saveTasks(updatedTasks);
   }
 
   function loadTasks() {
