@@ -7,14 +7,14 @@ You have 4 tasks to accomplish. After completing them publish your code to GitHu
 
 After publishing to GitHub, answer live-coding question with repository URL.
 
-1. Try to add several tasks without closing modal window. Tasks will only appear once the windows is closed, fix this. = 3.5 points
+1. Try to add several tasks without closing modal window. Tasks will only appear once the windows is closed, fix this. = 2.5 points
 
-2. Now, try to delete some tasks. Delete doesn't work properly. Fix it so that clicking the button will immediately delete task. = 3.5 points
+2. Now, try to delete some tasks. Delete doesn't work properly. Fix it so that clicking the button will immediately delete task. = 2.5 points
 
 3. There are two inputs in the "New task" modal window: "Title" and "Summary". = 7 points
 
    3.1 Add a new field "State" which will have 3 options: "Done", "Not done", "Doing right now".'
-   It maybe a Button, Select, Checbox, etc. = 1 point
+   It maybe a Button, Select, Checbox, etc. = 2 point
 
    3.2 Connect this field to Task object, so that every Task would have it's own "State". = 2 points
 
@@ -22,4 +22,6 @@ After publishing to GitHub, answer live-coding question with repository URL.
 
    3.4 Add a filter buttons near sorting ones: "Show only 'Done'", "Show only 'Not done'", and "Show only 'Doing'". Same logic as 3.3, but now filter Task list. = 2 points
 
-4. To the left of "Delete" button (Trash bin icon) add "Edit" button. "Edit" should open "Edit task" modal window where user can edit all the fields of the Task. = 6 points.
+   3.5 Now, add the "Deadline" field, which will be a Date input. For instance, this Task is due to 25th of Decembet. Also, add related sorting buttons: "Sort by deadline"
+
+4. To the left of "Delete" button (Trash bin icon) add "Edit" button. "Edit" should open "Edit task" modal window where user can edit all the fields of the Task. = 1 points.
