@@ -1,25 +1,25 @@
-<h1 align="center">Todo React App  📝</h1>  
-<p align="center">
-  🖊️ A simple Todo App built using <a href="https://reactjs.org/">React</a> and <a href="https://mantine.dev/">Mantine UI</a>
-</p>
+React. Final
 
-## This is a super simple Todo App built using React.js and styled using Mantine UI.
+Student ID: _fill in_
+Student Fullname: _fill in_
 
-You can view a live demo of the project here: https://javascriptbear.github.io/todo_react_app/
-Or, you can watch this video demo
+You have 4 tasks to accomplish. After completing them publish your code to GitHub to your repository.
 
-### **(Most likely outdated, its reccomeneded you check out the live demo!)**
+After publishing to GitHub, answer live-coding question with repository URL.
 
-https://user-images.githubusercontent.com/109053279/178185429-8de77574-cc2f-429f-8c4e-b1ed9f290894.mp4
+1. Try to add several tasks without closing modal window. Tasks will only appear once the windows is closed, fix this. = 3.5 points
 
-## 😃 Features:
+2. Now, try to delete some tasks. Delete doesn't work properly. Fix it so that clicking the button will immediately delete task. = 3.5 points
 
-- ➕ Add todos
-- 🗑️ Delete todos
-- ⏸ Save todos to Local Storage when the state changes
-- ▶️ Load the todos from Local Storage when the site is loaded again
-- 🌙 Light \ dark mode toggle
+3. There are two inputs in the "New task" modal window: "Title" and "Summary". = 7 points
 
-<p align="center">
-  ❤️ Feel free to create issues and contributions for features or bugs to this project.
-</p>
+   3.1 Add a new field "State" which will have 3 options: "Done", "Not done", "Doing right now".'
+   It maybe a Button, Select, Checbox, etc. = 1 point
+
+   3.2 Connect this field to Task object, so that every Task would have it's own "State". = 2 points
+
+   3.3 Add a sorting buttons above Task list: "Show 'Done' first", "Show 'Doing' first", and "Show 'Not done' first". By clicking this buttons list should be sorted so that tasks with corresponding states will be shown first. = 2 points
+
+   3.4 Add a filter buttons near sorting ones: "Show only 'Done'", "Show only 'Not done'", and "Show only 'Doing'". Same logic as 3.3, but now filter Task list. = 2 points
+
+4. To the left of "Delete" button (Trash bin icon) add "Edit" button. "Edit" should open "Edit task" modal window where user can edit all the fields of the Task. = 6 points.
